@@ -1,12 +1,12 @@
-# EX-10 : IMPLEMENTATION OF CLASSICAL PLANNING ALGORITHM 
+## EX-10 : IMPLEMENTATION OF CLASSICAL PLANNING ALGORITHM 
 
 ## NAME : Kousalya A.
 ## REGISTER NUMBER : 212222230068
 
-## AIM : 
+### AIM : 
  To implement the classical planning algorithm using python.
  
-## ALGORITHM :
+### ALGORITHM :
 <ol>
   <li>Define the initial state</li>
   <li>Define the goal state</li>
@@ -15,7 +15,7 @@
   <li>Print the plan</li>
 </ol>
 
-## Example - 1
+### Example - 1
 ```
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
@@ -32,7 +32,7 @@ print(plan)
 ```
 ['move_A_to_B']
 ```
-## Example - 2
+### Example - 2
 ```
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
@@ -46,12 +46,12 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-## Output :
+### Output :
 ```
 ['move_A_to_B', 'move_B_to_C']
 ```
 
-## PROGRAM :
+### PROGRAM :
 
 ```py
 def is_goal_state(current_state, goal_state):
@@ -122,11 +122,11 @@ print(plan)
 
 ```
 
-## OUTPUT :
+### OUTPUT :
 <img width="306" height="72" alt="image" src="https://github.com/user-attachments/assets/f89b352a-e3fe-4de5-83a1-b7b97db55935" />
 
 
 
-## RESULT :
+### RESULT :
 Therefore,Implementation of Classical Planning Algorithm is implemetated successfully.
 
